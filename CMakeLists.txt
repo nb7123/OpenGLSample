@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         src/main.cpp
         src/GLHelper.cpp
-        )
+        src/GLProgram.cpp
+        res/Cube.cpp res/Cube.h)
 
 link_libraries(
         GL
