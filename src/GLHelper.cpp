@@ -5,6 +5,7 @@
 #include <fstream>
 #include <iostream>
 #include <SOIL.h>
+#include <sstream>
 #include "GLHelper.h"
 
 std::string GLHelper::load_src(const char *file) {
@@ -14,13 +15,10 @@ std::string GLHelper::load_src(const char *file) {
     in.open(file);
 
     if (in.is_open()) {
-        char buffer[1024];
-        while (!in.eof()) {
-            result.append("\n");
-
-            in.getline(buffer, sizeof(buffer));
-            result.append(buffer);
-        }
+        std::stringstream stringstream;
+        stringstream << in.rdbuf();
+        result = stringstream.str();
+        in.close();
     } else {
         std::cout << "Open file [" << file << "] error!" << std::endl;
     }
@@ -41,7 +39,7 @@ GLuint GLHelper::load_texture(const char *file,     // image file
 
     glBindTexture(GL_TEXTURE_2D, texture);
     glTexImage2D(GL_TEXTURE_2D, 0, internalformat, w, h, 0, format, GL_UNSIGNED_BYTE, image);
-    glGenerateMipmap(GL_IMAGE_2D);
+    glGenerateMipmap(GL_TEXTURE_2D);
 
     // free data
     SOIL_free_image_data(image);

@@ -9,13 +9,24 @@ set(SOURCE_FILES
         src/GLProgram.cpp
         res/Cube.cpp res/Cube.h)
 
+find_package(
+        OpenGL REQUIRED
+)
+
 link_libraries(
-        GL
-        glfw3 GLEW
-        Xxf86vm
-        SOIL
-        dl X11 Xrandr Xinerama Xcursor
-        pthread
+        # mac
+        ${OPENGL_LIBRARY}
+        glfw glew
+        /usr/local/lib/libSOIL.a
+        CoreFoundation
+
+        #linux
+#        GL
+#        glfw3 GLEW
+#        Xxf86vm
+#        SOIL
+#        dl X11 Xrandr Xinerama Xcursor
+#        pthread
 )
 
 add_executable(OpenGLSample ${SOURCE_FILES})
