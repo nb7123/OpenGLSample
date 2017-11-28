@@ -19,6 +19,16 @@ const char *Engine::LOG_TAG = "Engine";
 Engine *Engine::instance = nullptr;
 
 void Engine::draw() {
+    if (context == EGL_NO_CONTEXT) {
+        Log::i(LOG_TAG, "No egl context");
+        return;
+    }
+
+    if (display == EGL_NO_DISPLAY) {
+        Log::i(LOG_TAG, "No egl display");
+        return;
+    }
+
     Log::i(LOG_TAG, "Draw some thing");
     srand((unsigned int) time(nullptr));
     GLfloat red = (GLfloat)rand() / 255;
