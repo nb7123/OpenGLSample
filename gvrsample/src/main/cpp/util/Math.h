@@ -7,6 +7,12 @@
 
 #include <vr/gvr/capi/include/gvr.h>
 
+namespace math {
+    gvr::Rectf ModulateRect(const gvr::Rectf &rect, float width, float height);
+    gvr::Recti CalculatePixelSpaceRect(const gvr::Sizei &textureSize,
+                                        const gvr::Rectf &textureRect);
+}
+
 
 class Math {
 

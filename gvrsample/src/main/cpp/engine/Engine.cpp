@@ -60,6 +60,11 @@ void Engine::initializeGL() {
 }
 
 void Engine::draw() {
+    gvr::Sizei maxSize = gvrApi->GetMaximumEffectiveRenderTargetSize();
+    Log::i(LOG_TAG, "Max size(%d, %d)", maxSize.width, maxSize.height);
+    maxSize.width /= 4;
+    maxSize.height /= 2;
+    swapChain->ResizeBuffer(0, maxSize);
     // 设置到最佳视口大小
     vpList->SetToRecommendedBufferViewports();
     // 获取一个帧
@@ -81,8 +86,13 @@ void Engine::draw() {
     // 提交到畸变空间
     frame.BindBuffer(0);
     vpList->GetBufferViewport(GVR_LEFT_EYE, &scratchVP);
+    const gvr::Recti pixelRect = math::CalculatePixelSpaceRect(maxSize, scratchVP.GetSourceUv());
+    glViewport(pixelRect.left, pixelRect.bottom,
+               pixelRect.right - pixelRect.left, pixelRect.top - pixelRect.bottom);
     drawEye(scratchVP.GetSourceUv(), lEyeMat);
     vpList->GetBufferViewport(GVR_RIGHT_EYE, &scratchVP);
+    glViewport(pixelRect.left, pixelRect.bottom,
+               pixelRect.right - pixelRect.left, pixelRect.top - pixelRect.bottom);
     drawEye(scratchVP.GetSourceUv(), rEyeMat);
     frame.Unbind();
     frame.Submit(*vpList, headMat);
