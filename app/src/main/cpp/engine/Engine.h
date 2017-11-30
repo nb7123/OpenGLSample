@@ -8,6 +8,9 @@
 
 #include <EGL/egl.h>
 
+#include <android/sensor.h>
+#include "../util/Log.h"
+
 class Engine {
 private:
     static const char *LOG_TAG;
@@ -19,6 +22,10 @@ private:
     EGLSurface surface;
     EGLContext context;
 
+    ASensorManager *sensorMgr;
+    const ASensor *accelerometerSensor;
+    ASensorEventQueue *sensorEventQueue;
+
     Engine(struct android_app *app);
 
 public:
@@ -26,7 +33,22 @@ public:
     static Engine *getInstance(struct android_app *app) {
         if (nullptr == instance) {
             instance = new Engine(app);
+
+            instance->sensorMgr = ASensorManager_getInstance();
+            if (nullptr == instance->sensorMgr) {
+                Log::e(LOG_TAG, "Get sensor manager instance failed!");
+            } else {
+                instance->accelerometerSensor = ASensorManager_getDefaultSensor(instance->sensorMgr,
+                                                                                ASENSOR_TYPE_ACCELEROMETER);
+                instance->sensorEventQueue =
+                        ASensorManager_createEventQueue(instance->sensorMgr,// 传感器管理器
+                                                        app->looper,// 主循环
+                                                        LOOPER_ID_USER,//
+                                                        nullptr, nullptr);
+            }
+
         }
+
         return instance;
     }
 
@@ -40,6 +62,11 @@ public:
      * 绘制
      */
     void draw();
+
+    /**
+     * 处理加速传感器事件
+     */
+    void pullAccelerometerEvent();
 
     /**
      * 手动释放资源

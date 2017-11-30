@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/michae/Code/OpenGLSample/nativeapp/src/main/assets"/><source path="/home/michae/Code/OpenGLSample/nativeapp/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/michae/Code/OpenGLSample/nativeapp/src/debug/assets"/></dataSet></merger>

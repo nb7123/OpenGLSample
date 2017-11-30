@@ -19,21 +19,12 @@ const char *Engine::LOG_TAG = "Engine";
 Engine *Engine::instance = nullptr;
 
 void Engine::draw() {
-    if (context == EGL_NO_CONTEXT) {
-        Log::i(LOG_TAG, "No egl context");
-        return;
-    }
-
-    if (display == EGL_NO_DISPLAY) {
-        Log::i(LOG_TAG, "No egl display");
-        return;
-    }
-
-    Log::i(LOG_TAG, "Draw some thing");
     srand((unsigned int) time(nullptr));
-    GLfloat red = (GLfloat)rand() / 255;
-    GLfloat green = (GLfloat)rand() / 255;
-    GLfloat blue = (GLfloat)rand() / 255;
+    GLfloat red = (GLfloat) (rand() % 255 / 255.0);
+    GLfloat green = (GLfloat) (rand() % 255 / 255.0);
+    GLfloat blue = (GLfloat) (rand() % 255 / 255.0);
+
+//    Log::i(LOG_TAG, "Draw color(%.2f, %.2f, %.2f)", red, green, blue);
 
     glClearColor(red, green, blue, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
@@ -81,14 +72,14 @@ void Engine::handle_cmd(struct android_app *app, int32_t cmd) {
             break;
         case APP_CMD_GAINED_FOCUS:
             // When our app gains focus, we start monitoring the accelerometer.
-//            if (engine->accelerometerSensor != NULL) {
-//                ASensorEventQueue_enableSensor(engine->sensorEventQueue,
-//                                               engine->accelerometerSensor);
-//                // We'd like to get 60 events per second (in us).
-//                ASensorEventQueue_setEventRate(engine->sensorEventQueue,
-//                                               engine->accelerometerSensor,
-//                                               (1000L/60)*1000);
-//            }
+            if (Engine::instance->accelerometerSensor != NULL) {
+                ASensorEventQueue_enableSensor(Engine::instance->sensorEventQueue,
+                                               Engine::instance->accelerometerSensor);
+                // We'd like to get 60 events per second (in us).
+                ASensorEventQueue_setEventRate(Engine::instance->sensorEventQueue,
+                                               Engine::instance->accelerometerSensor,
+                                               (1000L/60)*1000);
+            }
             break;
         case APP_CMD_LOST_FOCUS:
             // When our app loses focus, we stop monitoring the accelerometer.
@@ -189,5 +180,15 @@ void Engine::init(struct android_app *app) {
 Engine::Engine(struct android_app *app) {
     app->onAppCmd = handle_cmd;
 
+}
+
+void Engine::pullAccelerometerEvent() {
+    ASensorEvent event;
+    while (ASensorEventQueue_getEvents(sensorEventQueue,
+                                       &event, 1) > 0) {
+        Log::i(LOG_TAG, "accelerometer: x=%f y=%f z=%f",
+             event.acceleration.x, event.acceleration.y,
+             event.acceleration.z);
+    }
 }
 

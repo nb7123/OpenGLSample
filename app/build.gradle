@@ -11,8 +11,18 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                cppFlags "-frtti -fexceptions -std=gnu++11"
+                cppFlags.add("-frtti -fexceptions -std=c++11")
+                cppFlags.add("-I" + file("${gvr_lib_path}headers").absolutePath)
             }
+        }
+
+
+        ndk {
+            abiFilters("armeabi")
+            abiFilters("armeabi-v7a")
+            abiFilters("x86")
+            abiFilters("x86_64")
+            abiFilters("mips")
         }
     }
     buildTypes {
@@ -31,7 +41,13 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    // gvr sdk
+    implementation 'com.google.vr:sdk-audio:1.101.0'
+    implementation 'com.google.vr:sdk-base:1.101.0'
+
     // test libraries
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
+build.dependsOn(':extractNdk')

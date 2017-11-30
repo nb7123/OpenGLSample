@@ -9,7 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/gvrsample" />
             <option value="$PROJECT_DIR$/nativeapp" />
+            <option value="$PROJECT_DIR$/othersample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

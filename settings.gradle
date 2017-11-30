@@ -1,1 +1,1 @@
-include ':app', ':nativeapp'
+include ':app', ':nativeapp', ':gvrsample', ':othersample'
