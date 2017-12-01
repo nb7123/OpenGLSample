@@ -17,8 +17,17 @@
  * @param sourceUv
  * @param eyeMat
  */
-void drawEye(const gvr::Rectf &sourceUv, const gvr::Mat4f &eyeMat) {
-    srand((size_t) time(NULL));
+void Engine::drawEye(const gvr::Rectf &sourceUv, const gvr::Mat4f &eyeMat) {
+    triangle -> draw();
+}
+
+/**
+ * 绘制背景
+ */
+void drawBackground() {
+    time_t t = time(NULL);
+
+    srand(t);
     GLfloat r = (GLfloat) (rand() % 255 / 255.0);
     GLfloat g = (GLfloat) (rand() % 255 / 255.0);
     GLfloat b = (GLfloat) (rand() % 255 / 255.0);
@@ -46,6 +55,11 @@ Engine::~Engine() {
 void Engine::release() {
 }
 
+void Engine::init() {
+    initializeGL();
+    initObjects();
+}
+
 void Engine::initializeGL() {
     gvrApi->InitializeGl();
 
@@ -57,11 +71,16 @@ void Engine::initializeGL() {
     swapChain.reset(new gvr::SwapChain(gvrApi->CreateSwapChain(specs)));
     // 创建视口（View port）列表
     vpList.reset(new gvr::BufferViewportList(gvrApi->CreateEmptyBufferViewportList()));
+
+    // create object
+}
+
+void Engine::initObjects() {
+    triangle = std::unique_ptr<Triangle>(new Triangle());
 }
 
 void Engine::draw() {
     gvr::Sizei maxSize = gvrApi->GetMaximumEffectiveRenderTargetSize();
-    Log::i(LOG_TAG, "Max size(%d, %d)", maxSize.width, maxSize.height);
     maxSize.width /= 4;
     maxSize.height /= 2;
     swapChain->ResizeBuffer(0, maxSize);
@@ -85,12 +104,22 @@ void Engine::draw() {
     // 解除绑定
     // 提交到畸变空间
     frame.BindBuffer(0);
+    drawBackground();
     vpList->GetBufferViewport(GVR_LEFT_EYE, &scratchVP);
-    const gvr::Recti pixelRect = math::CalculatePixelSpaceRect(maxSize, scratchVP.GetSourceUv());
+    gvr::Recti pixelRect = math::CalculatePixelSpaceRect(maxSize, scratchVP.GetSourceUv());
+    Log::i(LOG_TAG, "Left eye pixel rect(left: %d, bottom: %d, width: %d, height: %d",
+           pixelRect.left, pixelRect.bottom,
+            pixelRect.right - pixelRect.left,
+            pixelRect.top - pixelRect.bottom);
     glViewport(pixelRect.left, pixelRect.bottom,
                pixelRect.right - pixelRect.left, pixelRect.top - pixelRect.bottom);
     drawEye(scratchVP.GetSourceUv(), lEyeMat);
     vpList->GetBufferViewport(GVR_RIGHT_EYE, &scratchVP);
+    pixelRect = math::CalculatePixelSpaceRect(maxSize, scratchVP.GetSourceUv());
+    Log::i(LOG_TAG, "Right eye pixel rect(left: %d, bottom: %d, width: %d, height: %d",
+           pixelRect.left, pixelRect.bottom,
+           pixelRect.right - pixelRect.left,
+           pixelRect.top - pixelRect.bottom);
     glViewport(pixelRect.left, pixelRect.bottom,
                pixelRect.right - pixelRect.left, pixelRect.top - pixelRect.bottom);
     drawEye(scratchVP.GetSourceUv(), rEyeMat);

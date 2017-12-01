@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/home/michae/Code/Sample/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/michae/Code/Sample/OpenGLSample/nativeapp/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/michae/Code/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/michae/Code/OpenGLSample/nativeapp/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/michae/Code/Sample/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/michae/Code/Sample/OpenGLSample/nativeapp/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/michae/Code/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -12,7 +20,15 @@
         "source": "/home/michae/Code/OpenGLSample/nativeapp/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/michae/Code/Sample/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/michae/Code/Sample/OpenGLSample/nativeapp/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/michae/Code/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/michae/Code/OpenGLSample/nativeapp/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/michae/Code/Sample/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/michae/Code/Sample/OpenGLSample/nativeapp/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

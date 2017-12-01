@@ -39,6 +39,8 @@ add_library( # Sets the name of the library.
              # Provides a relative path to your source file(s).
              src/main/cpp/util/Log.h
              src/main/cpp/util/Math.cpp
+             src/main/cpp/engine/Object.cpp
+             src/main/cpp/engine/Triangle.cpp
              src/main/cpp/engine/Engine.cpp
              src/main/cpp/native-lib.cpp )
 

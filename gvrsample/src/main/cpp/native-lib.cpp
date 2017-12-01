@@ -53,7 +53,7 @@ JNI_METHOD(void, nativeInitGL)
  jlong nativeRender) {
 
     Log::i("native-lib", "Native initialize gl");
-    native(nativeRender)->initializeGL();
+    native(nativeRender)->init();
 
 }
 

@@ -4,6 +4,7 @@
 #include <EGL/egl.h>
 
 #include <android_native_app_glue.h>
+#include <string>
 
 #include "engine/Engine.h"
 
@@ -44,6 +45,8 @@ void android_main(struct android_app *app) {
                 return;
             }
         }
+
+        std::string str = "Hello";
 
         engine->draw();
     }

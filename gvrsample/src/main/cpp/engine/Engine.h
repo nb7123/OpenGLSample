@@ -13,6 +13,7 @@
 #include <vr/gvr/capi/include/gvr_types.h>
 
 #include "../util/Log.h"
+#include "Triangle.h"
 
 static const uint64_t kPredictionTimeWithoutVsyncNanos = 50000000;
 
@@ -23,6 +24,9 @@ private:
     ASensorManager *sensorMgr;
     const ASensor *accelerometerSensor;
     ASensorEventQueue *sensorEventQueue;
+
+    // Objects
+    std::unique_ptr<Triangle> triangle;
 
     std::unique_ptr<gvr::GvrApi> gvrApi;
 
@@ -39,6 +43,16 @@ private:
      */
     std::unique_ptr<gvr::BufferViewportList> vpList;
 
+    /**
+     * gl 初始化
+     * 必须在渲染线程调用
+     */
+    void initializeGL();
+    void initObjects();
+
+    // vr mode
+    void drawEye(const gvr::Rectf &sourceUv, const gvr::Mat4f &eyeMat);
+
 public:
     /**
      * 构造函数
@@ -47,10 +61,9 @@ public:
     Engine(jlong jGvrCtx);
 
     /**
-     * gl 初始化
-     * 必须在渲染线程调用
+     * 引擎初始化
      */
-    void initializeGL();
+    void init();
 
     /**
      * 绘制

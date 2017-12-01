@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/home/michae/Code/Sample/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/michae/Code/Sample/OpenGLSample/nativeapp/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/michae/Code/OpenGLSample/nativeapp/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
