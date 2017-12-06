@@ -13,7 +13,8 @@
 #include <vr/gvr/capi/include/gvr_types.h>
 
 #include "../util/Log.h"
-#include "Triangle.h"
+#include "../objects/shape/triangle/Triangle.h"
+#include "../objects/shape/square/Square.h"
 
 static const uint64_t kPredictionTimeWithoutVsyncNanos = 50000000;
 
@@ -27,6 +28,7 @@ private:
 
     // Objects
     std::unique_ptr<Triangle> triangle;
+    std::unique_ptr<Square> square;
 
     std::unique_ptr<gvr::GvrApi> gvrApi;
 

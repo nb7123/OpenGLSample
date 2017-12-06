@@ -7,6 +7,7 @@
 
 
 #include <GLES3/gl3.h>
+#include <string>
 
 class Object {
 private:
@@ -26,7 +27,10 @@ private:
     void createProgram();
 
 public:
-    Object();
+    /**
+     * 初始化
+     */
+    void init();
     /**
      * 顶点着色器源代码
      * @return 顶点着色器源代码

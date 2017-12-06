@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/home/michae/Code/OpenGLSample/nativeapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
-            "map": [
-                {
-                    "source": "/home/michae/Code/OpenGLSample/nativeapp/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "51",
-                        "endOffsets": "102"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/michae/Code/Sample/OpenGLSample/nativeapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {

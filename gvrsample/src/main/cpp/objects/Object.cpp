@@ -9,10 +9,6 @@
 #include "Object.h"
 #include "../util/Log.h"
 
-Object::Object() {
-    createProgram();
-}
-
 GLuint Object::loadShader(GLint shaderType) {
     const char *src;
     std::string typeName;
@@ -24,15 +20,12 @@ GLuint Object::loadShader(GLint shaderType) {
         typeName = "Fragment shader";
     }
 
-    GLint srcLength = 0;
-
-    GLuint shader = glCreateShader(GL_VERTEX_SHADER);
+    GLuint shader = glCreateShader(shaderType);
     // 加载着色器源码
-    glShaderSource(shader, 1, &src, &srcLength);
+    glShaderSource(shader, 1, &src, NULL);
 
     // 打印着色器信息
     std::cout << "Load " << typeName << std::endl
-              << "Shader source length: " << srcLength
               << "Shader source: " << std::endl << src << std::endl;
 
     // 编译着色器
@@ -88,9 +81,8 @@ std::string Object::getShaderInfoLog(GLuint shader) {
     GLchar *infoLog;
     // 先查询日志长度
     GLsizei infoLength = 0;
-    glGetShaderInfoLog(shader, 0, &infoLength, NULL);
-    // 根本相应长度查询日志
-    infoLength += 1;
+    glGetShaderiv(shader, GL_INFO_LOG_LENGTH, &infoLength);
+    // 查询日志信息
     infoLog = (char *) malloc((size_t) infoLength);
     memset(infoLog, 0, (size_t) infoLength);
     glGetShaderInfoLog(shader, infoLength, NULL, infoLog);
@@ -120,4 +112,8 @@ Object::~Object() {
     glDeleteShader(shaderV);
     glDeleteShader(shaderF);
     glDeleteProgram(program);
+}
+
+void Object::init() {
+    createProgram();
 }

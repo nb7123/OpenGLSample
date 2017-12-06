@@ -7,7 +7,7 @@
 
 
 #include <GLES3/gl3.h>
-#include "Object.h"
+#include "../../Object.h"
 
 class Triangle: public Object {
 private:

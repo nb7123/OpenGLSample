@@ -18,7 +18,8 @@
  * @param eyeMat
  */
 void Engine::drawEye(const gvr::Rectf &sourceUv, const gvr::Mat4f &eyeMat) {
-    triangle -> draw();
+//    triangle -> draw();
+    square -> draw();
 }
 
 /**
@@ -64,6 +65,10 @@ void Engine::initializeGL() {
     gvrApi->InitializeGl();
 
     Log::d(LOG_TAG, "Native gl initialized");
+    // 查询最大顶点个数
+    GLint maxVertex;
+    glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &maxVertex);
+    Log::i(LOG_TAG, "Max vertex attributes: %d", maxVertex);
 
     // 创建帧缓冲区链
     std::vector<gvr::BufferSpec> specs;
@@ -71,12 +76,14 @@ void Engine::initializeGL() {
     swapChain.reset(new gvr::SwapChain(gvrApi->CreateSwapChain(specs)));
     // 创建视口（View port）列表
     vpList.reset(new gvr::BufferViewportList(gvrApi->CreateEmptyBufferViewportList()));
-
-    // create object
 }
 
 void Engine::initObjects() {
     triangle = std::unique_ptr<Triangle>(new Triangle());
+    triangle->init();
+
+    square = std::unique_ptr<Square>(new Square());
+    square -> init();
 }
 
 void Engine::draw() {
@@ -107,19 +114,13 @@ void Engine::draw() {
     drawBackground();
     vpList->GetBufferViewport(GVR_LEFT_EYE, &scratchVP);
     gvr::Recti pixelRect = math::CalculatePixelSpaceRect(maxSize, scratchVP.GetSourceUv());
-    Log::i(LOG_TAG, "Left eye pixel rect(left: %d, bottom: %d, width: %d, height: %d",
-           pixelRect.left, pixelRect.bottom,
-            pixelRect.right - pixelRect.left,
-            pixelRect.top - pixelRect.bottom);
+
     glViewport(pixelRect.left, pixelRect.bottom,
                pixelRect.right - pixelRect.left, pixelRect.top - pixelRect.bottom);
     drawEye(scratchVP.GetSourceUv(), lEyeMat);
     vpList->GetBufferViewport(GVR_RIGHT_EYE, &scratchVP);
     pixelRect = math::CalculatePixelSpaceRect(maxSize, scratchVP.GetSourceUv());
-    Log::i(LOG_TAG, "Right eye pixel rect(left: %d, bottom: %d, width: %d, height: %d",
-           pixelRect.left, pixelRect.bottom,
-           pixelRect.right - pixelRect.left,
-           pixelRect.top - pixelRect.bottom);
+
     glViewport(pixelRect.left, pixelRect.bottom,
                pixelRect.right - pixelRect.left, pixelRect.top - pixelRect.bottom);
     drawEye(scratchVP.GetSourceUv(), rEyeMat);
