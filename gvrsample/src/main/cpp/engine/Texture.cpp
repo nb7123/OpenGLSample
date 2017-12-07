@@ -20,7 +20,8 @@ Texture::Texture(const char *path) {
 
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_2D, texture);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, texImage);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, texImage);
+    glGenerateMipmap(GL_TEXTURE_2D);
     SOIL_free_image_data(texImage);
     glBindTexture(GL_TEXTURE_2D, 0);
 }

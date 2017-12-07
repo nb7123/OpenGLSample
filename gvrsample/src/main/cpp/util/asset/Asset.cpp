@@ -19,7 +19,6 @@ Asset::~Asset() {
 
 std::shared_ptr<Asset> Asset::open(const char *path, int mode) {
     AAsset *asset = AAssetManager_open(AssetManager::assetMgr, path, mode);
-    Log::i(__func__, "Opened asset[%lld]", asset);
     return std::shared_ptr<Asset>(new Asset(asset));
 }
 

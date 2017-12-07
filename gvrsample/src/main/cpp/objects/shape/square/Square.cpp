@@ -21,7 +21,8 @@ const GLuint indices[] = {
 };
 
 Square::Square() {
-    const char* path = "img/img_chery1.jpg";
+//    const char* path = "img/img_cheryl.jpg";
+    const char* path = "img/ic_launcher.png";
     texture = std::unique_ptr<Texture>(new Texture(path));
 }
 
