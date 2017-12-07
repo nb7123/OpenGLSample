@@ -8,9 +8,12 @@
 #include <bits/unique_ptr.h>
 #include <GLES3/gl3.h>
 #include <EGL/egl.h>
+#include <iostream>
 #include "Engine.h"
 #include "../util/Log.h"
 #include "../util/Math.h"
+#include "../util/asset/Asset.h"
+#include "../util/soil/SOIL.h"
 
 /**
  * 绘制眼睛

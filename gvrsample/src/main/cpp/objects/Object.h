@@ -35,12 +35,12 @@ public:
      * 顶点着色器源代码
      * @return 顶点着色器源代码
      */
-    virtual const char *srcV() = 0;
+    virtual const std::string srcV() = 0;
     /**
      * 片断着色器源代码
      * @return 片断着色器源代码
      */
-    virtual const char *srcF() = 0;
+    virtual const std::string srcF() = 0;
 
     /**
      * 获取着色器日志

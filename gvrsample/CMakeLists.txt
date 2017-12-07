@@ -37,12 +37,19 @@ add_library( # Sets the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
+             src/main/cpp/util/soil/image_DXT.c
+             src/main/cpp/util/soil/image_helper.c
+             src/main/cpp/util/soil/SOIL.c
+             src/main/cpp/util/soil/stb_image_aug.c
              src/main/cpp/util/Log.h
              src/main/cpp/util/Math.cpp
+             src/main/cpp/util/asset/AssetManager.cpp
+             src/main/cpp/util/asset/Asset.cpp
              src/main/cpp/objects/Object.cpp
              src/main/cpp/objects/shape/triangle/Triangle.cpp
              src/main/cpp/objects/shape/square/Square.cpp
              src/main/cpp/engine/Engine.cpp
+             src/main/cpp/engine/Texture.cpp
              src/main/cpp/native-lib.cpp )
 
 # Searches for a specified prebuilt library and stores the path as a

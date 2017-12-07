@@ -2,6 +2,7 @@ package com.mike.gvr.sample.util
 
 import android.app.Activity
 import android.content.Context
+import android.content.res.AssetManager
 import android.opengl.GLSurfaceView
 import android.os.Build
 import android.os.VibrationEffect
@@ -40,6 +41,7 @@ class GvrHelper(private val ctx: Activity) {
         nativeRender = nativeCreateRender(javaClass.classLoader,
                 ctx, vrLayout.gvrApi.nativeGvrContext)
         Log.d(LOG_TAG, "Native gvr context[${vrLayout.gvrApi.nativeGvrContext}], native render[$nativeRender]")
+        nativeInitAssetManager(ctx.assets)
         surfaceView.setRenderer(object : GLSurfaceView.Renderer {
             override fun onSurfaceCreated(gl10: GL10, eglConfig: EGLConfig) {
                 Log.i(LOG_TAG, "GL render, on surface created, ")
@@ -107,6 +109,7 @@ class GvrHelper(private val ctx: Activity) {
     private external fun nativePause(nativeRender: Long)
     private external fun nativeResume(nativeRender: Long)
     private external fun nativeDestroy(nativeRender: Long)
+    private external fun nativeInitAssetManager(assetManager: AssetManager)
 
 
     companion object {

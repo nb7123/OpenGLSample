@@ -2,6 +2,7 @@
 #include <string>
 #include "util/Log.h"
 #include "engine/Engine.h"
+#include "util/asset/AssetManager.h"
 
 #define JNI_METHOD(return_type, method_name)    \
     JNIEXPORT return_type JNICALL               \
@@ -81,6 +82,18 @@ JNI_METHOD(jlong, nativeCreateRender)
     Log::i("native-lib", "Native create render");
 
     return jptr(new Engine(nativeGvrContext));
+}
+
+/**
+ * 初始化asset manager
+ */
+JNI_METHOD(void, nativeInitAssetManager)
+(JNIEnv *env,
+ jobject instance,
+ jobject assetMgr) {
+    Log::i(__FUNCTION__, "Native init asset manager");
+
+    return AssetManager::init(env, assetMgr);
 }
 
 /**

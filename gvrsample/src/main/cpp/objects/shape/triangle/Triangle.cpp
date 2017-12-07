@@ -3,6 +3,7 @@
 //
 
 #include "Triangle.h"
+#include "../../../util/asset/Asset.h"
 
 const GLfloat Triangle::vertices[]  = {
         -0.5f, -0.5f, 0.0,
@@ -10,27 +11,17 @@ const GLfloat Triangle::vertices[]  = {
         0,0,   0.5 , 0,0
 };
 
-const char *Triangle::shaderV =
-        "#version 310 es\n"
-                "layout (location = 0) in vec3 position;\n"
-                "void main() {\n"
-                "   gl_Position = vec4(position.x, position.y, position.z, 1.0);\n"
-                "}";
 
-const char *Triangle::shaderF =
-        "#version 310 es\n"
-                "mediump out vec4 color;\n"
-                "void main() {\n"
-                "   color = vec4(0.0f, 0.5f, 1.0f, 1.0f);\n"
-                "}";
+const std::string Triangle::srcV() {
+    std::shared_ptr<Asset> asset = Asset::open("shader/triangle_v.glsl", AASSET_MODE_BUFFER);
 
-
-const char *Triangle::srcV() {
-    return Triangle::shaderV;
+    return asset->readShaderSrc();
 }
 
-const char *Triangle::srcF() {
-    return Triangle::shaderF;
+const std::string Triangle::srcF() {
+    std::shared_ptr<Asset> asset = Asset::open("shader/triangle_f.glsl", AASSET_MODE_BUFFER);
+
+    return asset->readShaderSrc();
 }
 
 void Triangle::draw() {

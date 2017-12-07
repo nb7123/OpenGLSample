@@ -21,20 +21,9 @@ private:
      */
     static const GLfloat vertices[];
 
-    /**
-     * 顶点着色器
-     */
-    static const char *shaderV;
-
-    /**
-     * 片段着色器
-     */
-    static const char *shaderF;
-
-
 public:
-    const char *srcV();
-    const char *srcF();
+    const std::string srcV();
+    const std::string srcF();
 
     void draw();
 };

@@ -6,18 +6,19 @@
 #define OPENGLSAMPLE_SQUARE_H
 
 
+#include <bits/unique_ptr.h>
 #include "../../Object.h"
+#include "../../../engine/Texture.h"
 
 class Square: public Object {
 private:
-    static const char* LOG_TAG;
-    static const char* shaderSrcV;
-    static const char* shaderSrcF;
-
+    std::unique_ptr<Texture> texture;
 public:
+    Square();
     void draw();
-    const char* srcV();
-    const char* srcF();
+    const std::string srcV();
+    const std::string srcF();
+    ~Square();
 };
 
 

@@ -10,7 +10,7 @@
 #include "../util/Log.h"
 
 GLuint Object::loadShader(GLint shaderType) {
-    const char *src;
+    std::string src;
     std::string typeName;
     if (shaderType == GL_VERTEX_SHADER) {
         src = srcV();
@@ -22,11 +22,8 @@ GLuint Object::loadShader(GLint shaderType) {
 
     GLuint shader = glCreateShader(shaderType);
     // 加载着色器源码
-    glShaderSource(shader, 1, &src, NULL);
-
-    // 打印着色器信息
-    std::cout << "Load " << typeName << std::endl
-              << "Shader source: " << std::endl << src << std::endl;
+    const char *srcData = src.data();
+    glShaderSource(shader, 1, &srcData, NULL);
 
     // 编译着色器
     glCompileShader(shader);
@@ -52,7 +49,7 @@ void Object::createProgram() {
     shaderF = loadShader(GL_FRAGMENT_SHADER);
 
     if (shaderV == 0 || shaderF == 0) {
-        std::cout << "Some shader load failed!";
+        Log::e(__func__, "Some shader load failed!");
     } else {
         program = glCreateProgram();
         glAttachShader(program, shaderV);
@@ -109,6 +106,7 @@ void Object::useProgram() {
 }
 
 Object::~Object() {
+    Log::i(__func__, "Release data");
     glDeleteShader(shaderV);
     glDeleteShader(shaderF);
     glDeleteProgram(program);
