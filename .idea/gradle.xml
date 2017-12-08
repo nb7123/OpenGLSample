@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/gvrsample" />
             <option value="$PROJECT_DIR$/nativeapp" />
             <option value="$PROJECT_DIR$/othersample" />
+            <option value="$PROJECT_DIR$/sdk-simplevideowidget" />
+            <option value="$PROJECT_DIR$/sdk-videoplayer" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/gvrsample/gvrsample.iml" filepath="$PROJECT_DIR$/gvrsample/gvrsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/nativeapp/nativeapp.iml" filepath="$PROJECT_DIR$/nativeapp/nativeapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/othersample/othersample.iml" filepath="$PROJECT_DIR$/othersample/othersample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk-simplevideowidget/sdk-simplevideowidget.iml" filepath="$PROJECT_DIR$/sdk-simplevideowidget/sdk-simplevideowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk-videoplayer/sdk-videoplayer.iml" filepath="$PROJECT_DIR$/sdk-videoplayer/sdk-videoplayer.iml" />
     </modules>
   </component>
 </project>

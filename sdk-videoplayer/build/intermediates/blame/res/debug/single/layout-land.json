@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/layout-land/ui_layer_with_portrait_support.xml",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/layout-land/ui_layer_with_portrait_support.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/layout-land/back_button.xml",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/layout-land/back_button.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/layout-land/settings_button.xml",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/layout-land/settings_button.xml"
+    }
+]

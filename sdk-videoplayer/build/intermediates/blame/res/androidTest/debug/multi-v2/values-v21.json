@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/values-v21/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "147",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "237"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "145"
+                    }
+                }
+            ]
+        }
+    ]
+}

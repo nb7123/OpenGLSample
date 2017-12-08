@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_rewind.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_rewind.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_next.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_next.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_repeat_all.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_repeat_all.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_repeat_one.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_repeat_one.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_repeat_off.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_repeat_off.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_play.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_play.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_previous.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_previous.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_pause.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_controls_fastforward.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
+    }
+]

@@ -1,1 +1,1 @@
-include ':app', ':nativeapp', ':gvrsample', ':othersample'
+include ':app', ':nativeapp', ':gvrsample', ':othersample', ':sdk-videoplayer', ':sdk-simplevideowidget'

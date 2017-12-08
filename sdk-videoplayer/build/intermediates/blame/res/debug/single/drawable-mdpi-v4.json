@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_next.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_next.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_previous.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_edit_mode_logo.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_edit_mode_logo.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_close_white_24.png",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/drawable-mdpi-v4/quantum_ic_close_white_24.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_repeat_all.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_repeat_all.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_repeat_off.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_repeat_off.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_play.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_play.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_pause.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_pause.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/transition.png",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/drawable-mdpi-v4/transition.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_repeat_one.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_repeat_one.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_rewind.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_rewind.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/exo_controls_fastforward.png",
+        "source": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/drawable-mdpi-v4/exo_controls_fastforward.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_settings_white_24.png",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/drawable-mdpi-v4/quantum_ic_settings_white_24.png"
+    }
+]

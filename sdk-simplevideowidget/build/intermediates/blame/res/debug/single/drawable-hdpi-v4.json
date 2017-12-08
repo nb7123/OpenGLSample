@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-simplevideowidget/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_cardboard_white_24.png",
+        "source": "/home/michae/.android/build-cache/cc7c54beb69fbaf02a0513426b7d67197b7989f8/output/res/drawable-hdpi-v4/quantum_ic_cardboard_white_24.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-simplevideowidget/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_close_white_24.png",
+        "source": "/home/michae/.android/build-cache/cc7c54beb69fbaf02a0513426b7d67197b7989f8/output/res/drawable-hdpi-v4/quantum_ic_close_white_24.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-simplevideowidget/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_fullscreen_white_24.png",
+        "source": "/home/michae/.android/build-cache/cc7c54beb69fbaf02a0513426b7d67197b7989f8/output/res/drawable-hdpi-v4/quantum_ic_fullscreen_white_24.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-simplevideowidget/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_info_white_24.png",
+        "source": "/home/michae/.android/build-cache/cc7c54beb69fbaf02a0513426b7d67197b7989f8/output/res/drawable-hdpi-v4/quantum_ic_info_white_24.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-simplevideowidget/build/intermediates/res/merged/debug/drawable-hdpi-v4/transition.png",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/drawable-hdpi-v4/transition.png"
+    },
+    {
+        "merged": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-simplevideowidget/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_settings_white_24.png",
+        "source": "/home/michae/.android/build-cache/5f8fdc2cd287c129a6e708e31792980348de2fb2/output/res/drawable-hdpi-v4/quantum_ic_settings_white_24.png"
+    }
+]

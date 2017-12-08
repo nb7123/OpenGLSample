@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/michae/Code/Github/gvr-android-sdk/samples/sdk-videoplayer/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 10,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "/home/michae/.android/build-cache/2f0bbf2fc1f533386e1f1cdc690d8dd8b9b931fb/output/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 10,
+                        "endOffset": 329
+                    }
+                }
+            }
+        ]
+    }
+]
