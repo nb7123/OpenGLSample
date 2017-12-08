@@ -27,7 +27,7 @@ const char *Asset::readLine() {
     return nullptr;
 }
 
-const std::string &Asset::readShaderSrc() {
+const std::string Asset::readShaderSrc() {
     std::string src;
     src.append((char *)readContent(), (unsigned int) contentLength());
 

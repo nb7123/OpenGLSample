@@ -9,15 +9,18 @@
 #include <bits/unique_ptr.h>
 #include "../../Object.h"
 #include "../../../engine/Texture.h"
+#include "../Shape.h"
 
-class Square: public Object {
+class Square: public Shape {
 private:
-    std::unique_ptr<Texture> texture;
+    std::unique_ptr<Texture> texture0;
+    std::unique_ptr<Texture> texture1;
+
+    GLint locTex0;
+    GLint locTex1;
 public:
-    Square();
+    void init();
     void draw();
-    const std::string srcV();
-    const std::string srcF();
     ~Square();
 };
 

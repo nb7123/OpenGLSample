@@ -20,7 +20,6 @@
         android:debuggable="true"
         android:label="SimpleVrVideoActivity"
         android:largeHeap="true"
-        android:testOnly="true"
         android:theme="@android:style/Theme.Holo.Light" >
 
         <!-- This demo is singleTask since it makes launching via custom adb intents easier. -->

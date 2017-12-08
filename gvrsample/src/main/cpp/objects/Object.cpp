@@ -45,8 +45,8 @@ GLuint Object::loadShader(GLint shaderType) {
 }
 
 void Object::createProgram() {
-    shaderV = loadShader(GL_VERTEX_SHADER);
-    shaderF = loadShader(GL_FRAGMENT_SHADER);
+    GLuint shaderV = loadShader(GL_VERTEX_SHADER);
+    GLuint shaderF = loadShader(GL_FRAGMENT_SHADER);
 
     if (shaderV == 0 || shaderF == 0) {
         Log::e(__func__, "Some shader load failed!");
@@ -72,6 +72,19 @@ void Object::createProgram() {
             program = 0;
         }
     }
+
+    // 删除着色器
+    glDeleteShader(shaderV);
+    glDeleteShader(shaderF);
+
+    // 查找基本的uniform 位置
+    if (program > 0) {
+        locTrans = glGetUniformLocation(program, "translate");
+        locScale = glGetUniformLocation(program, "scale");
+        locRotat = glGetUniformLocation(program, "rotation");
+    }
+
+    Log::i(__func__, "Translate loc[%d], Scale loc[%d], Rotation loc[%d]", locTrans, locScale, locRotat);
 }
 
 std::string Object::getShaderInfoLog(GLuint shader) {
@@ -101,14 +114,34 @@ std::string Object::getProgramInfoLog(GLuint program) {
     return std::string(infoLog);
 }
 
-void Object::useProgram() {
+void Object::use() {
     glUseProgram(program);
+}
+
+Object::Object() {
+    translate = {
+            1.0, 0.0, 0.0, 0.0,
+            0.0, 1.0, 0.0, 0,0,
+            0.0, 0.0, 1.0, 0.0,
+            0.0, 0.0, 0.0, 1,0,
+    };
+
+    scale = {
+            1.0, 0.0, 0.0, 0.0,
+            0.0, 1.0, 0.0, 0,0,
+            0.0, 0.0, 1.0, 0.0,
+            0.0, 0.0, 0.0, 1,0,
+    };
+    rotation  = {
+            1.0, 0.0, 0.0, 0.0,
+            0.0, 1.0, 0.0, 0,0,
+            0.0, 0.0, 1.0, 0.0,
+            0.0, 0.0, 0.0, 1,0,
+    };
 }
 
 Object::~Object() {
     Log::i(__func__, "Release data");
-    glDeleteShader(shaderV);
-    glDeleteShader(shaderF);
     glDeleteProgram(program);
 }
 

@@ -8,8 +8,9 @@
 
 #include <GLES3/gl3.h>
 #include "../../Object.h"
+#include "../Shape.h"
 
-class Triangle: public Object {
+class Triangle: public Shape {
 private:
     /**
      * 下面这样一个三角形的顶点
@@ -22,9 +23,6 @@ private:
     static const GLfloat vertices[];
 
 public:
-    const std::string srcV();
-    const std::string srcF();
-
     void draw();
 };
 

@@ -28,7 +28,7 @@ public:
      * 将Asset作为着色器文件读取
      * @return  着色器源码
      */
-    const std::string &readShaderSrc();
+    const std::string readShaderSrc();
     /**
      * 读取内容
      * @return       数据指针

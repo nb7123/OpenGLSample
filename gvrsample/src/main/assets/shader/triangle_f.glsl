@@ -5,9 +5,9 @@ mediump in vec2 vOutTexPos;
 
 mediump out vec4 color;
 
-uniform sampler2D tex2D;
+uniform sampler2D tex2D0;
+uniform sampler2D tex2D1;
 
 void main() {
-    color = texture(tex2D, vOutTexPos);
-//    color = vec4(vOutTexPos, 1.0f, 1.0f);
+    color = mix(texture(tex2D0, vOutTexPos), texture(tex2D1, vOutTexPos), 0.8f);
 }

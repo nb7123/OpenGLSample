@@ -8,13 +8,10 @@
 
 #include <GLES3/gl3.h>
 #include <string>
+#include <vector>
 
 class Object {
 private:
-    GLuint program;
-    GLuint shaderV;
-    GLuint shaderF;
-
     /**
      * 加载着色器
      * @param shaderType    着色器类型
@@ -26,11 +23,23 @@ private:
      */
     void createProgram();
 
+protected:
+    GLuint program;
+
+    std::vector<GLfloat> translate;
+    std::vector<GLfloat> scale;
+    std::vector<GLfloat> rotation;
+
+    GLint locTrans;
+    GLint locScale;
+    GLint locRotat;
+
 public:
+    Object();
     /**
      * 初始化
      */
-    void init();
+    virtual void init();
     /**
      * 顶点着色器源代码
      * @return 顶点着色器源代码
@@ -58,7 +67,7 @@ public:
     /**
      * 使用着色器程序绘制
      */
-    void useProgram();
+    void use();
 
     /**
      * 绘制自己

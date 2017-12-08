@@ -46,6 +46,7 @@ add_library( # Sets the name of the library.
              src/main/cpp/util/asset/AssetManager.cpp
              src/main/cpp/util/asset/Asset.cpp
              src/main/cpp/objects/Object.cpp
+             src/main/cpp/objects/shape/Shape.cpp
              src/main/cpp/objects/shape/triangle/Triangle.cpp
              src/main/cpp/objects/shape/square/Square.cpp
              src/main/cpp/engine/Engine.cpp
