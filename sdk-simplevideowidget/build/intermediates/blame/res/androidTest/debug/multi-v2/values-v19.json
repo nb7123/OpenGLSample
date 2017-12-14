@@ -4,7 +4,7 @@
             "outputFile": "/home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v19/values-v19.xml",
             "map": [
                 {
-                    "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/values-v19/values.xml",
+                    "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/values-v19/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

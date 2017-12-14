@@ -85,14 +85,19 @@ class GvrHelper(private val ctx: Activity) {
     }
 
     fun onPause() {
-        nativePause(nativeRender)
+        queueEvent(pauseNativeRunnable)
+        surfaceView.onPause()
+        vrLayout.onPause()
     }
 
     fun onResume() {
-        nativeResume(nativeRender)
+        vrLayout.onResume()
+        surfaceView.onResume()
+        queueEvent(resumeNativeRunnable)
     }
 
     fun onDestroy() {
+        vrLayout.shutdown()
         nativeDestroy(nativeRender)
         nativeRender = 0
     }

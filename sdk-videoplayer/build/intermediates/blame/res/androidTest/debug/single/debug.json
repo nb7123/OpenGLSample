@@ -1,354 +1,354 @@
 [
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_next.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_next.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_next.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_rewind.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_rewind.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_rewind.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_ui_layer.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout/ui_layer.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout/ui_layer.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_repeat_off.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_repeat_off.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_repeat_off.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_exo_playback_control_view.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/layout/exo_playback_control_view.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/layout/exo_playback_control_view.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxxhdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_rewind.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_rewind.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_rewind.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_quantum_ic_settings_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-xhdpi-v4/quantum_ic_settings_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-xhdpi-v4/quantum_ic_settings_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_transition.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-mdpi-v4/transition.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-mdpi-v4/transition.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_quantum_ic_settings_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-hdpi-v4/quantum_ic_settings_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-hdpi-v4/quantum_ic_settings_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-land_ui_layer_with_portrait_support.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-land/ui_layer_with_portrait_support.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-land/ui_layer_with_portrait_support.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-ldrtl-v17_back_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-ldrtl-v17/back_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-ldrtl-v17/back_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_next.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_next.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_next.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_next.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_next.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_next.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_pause.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_pause.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_pause.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_back_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout/back_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout/back_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_quantum_ic_close_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-xxxhdpi-v4/quantum_ic_close_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-xxxhdpi-v4/quantum_ic_close_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_repeat_off.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_repeat_off.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_repeat_off.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_play.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_play.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_play.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_settings_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout/settings_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout/settings_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_quantum_ic_close_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-xhdpi-v4/quantum_ic_close_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-xhdpi-v4/quantum_ic_close_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-ldrtl-land-v17_back_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-ldrtl-land-v17/back_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-ldrtl-land-v17/back_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_next.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_next.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_next.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_repeat_off.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_repeat_off.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_repeat_off.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_rewind.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_rewind.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_rewind.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_previous.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_previous.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_previous.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_repeat_one.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_repeat_one.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_repeat_one.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_repeat_off.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_repeat_off.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_repeat_off.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_rewind.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_rewind.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_rewind.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_repeat_all.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_repeat_all.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_repeat_all.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_edit_mode_logo.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_edit_mode_logo.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_fastforward.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_fastforward.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_fastforward.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_pause.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_pause.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_pause.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_fastforward.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_fastforward.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_fastforward.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_previous.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_previous.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_previous.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_repeat_all.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_repeat_all.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_repeat_all.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_repeat_all.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_repeat_all.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_repeat_all.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_pause.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_pause.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_pause.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_repeat_all.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_repeat_all.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_repeat_all.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_edit_mode_logo.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_play.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_play.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_play.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-land_settings_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-land/settings_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-land/settings_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-land_back_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-land/back_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-land/back_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_pause.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_pause.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_pause.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_pause.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_pause.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_pause.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_rewind.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_rewind.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_rewind.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_repeat_off.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_repeat_off.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_repeat_off.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_rewind.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_rewind.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_rewind.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-v21_rippleable.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-v21/rippleable.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-v21/rippleable.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_play.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_play.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_play.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_quantum_ic_close_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-xxhdpi-v4/quantum_ic_close_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-xxhdpi-v4/quantum_ic_close_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-ldrtl-v17_settings_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-ldrtl-v17/settings_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-ldrtl-v17/settings_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_repeat_one.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_repeat_one.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_repeat_one.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_ui_layer_with_portrait_support.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout/ui_layer_with_portrait_support.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout/ui_layer_with_portrait_support.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_repeat_one.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_repeat_one.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_repeat_one.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_edit_mode_logo.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_quantum_ic_settings_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-mdpi-v4/quantum_ic_settings_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-mdpi-v4/quantum_ic_settings_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_quantum_ic_settings_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-xxxhdpi-v4/quantum_ic_settings_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-xxxhdpi-v4/quantum_ic_settings_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_play.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_play.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_play.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_transition.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-hdpi-v4/transition.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-hdpi-v4/transition.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_fastforward.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_fastforward.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_fastforward.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_quantum_ic_close_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-mdpi-v4/quantum_ic_close_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-mdpi-v4/quantum_ic_close_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_repeat_one.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_repeat_one.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_repeat_one.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_quantum_ic_settings_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-xxhdpi-v4/quantum_ic_settings_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-xxhdpi-v4/quantum_ic_settings_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_exo_controls_repeat_all.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-mdpi-v4/exo_controls_repeat_all.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-mdpi-v4/exo_controls_repeat_all.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_fastforward.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_fastforward.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_fastforward.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout-ldrtl-land-v17_settings_button.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout-ldrtl-land-v17/settings_button.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout-ldrtl-land-v17/settings_button.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_transition_view.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/layout/transition_view.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/layout/transition_view.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_next.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_next.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_next.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_previous.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_previous.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_previous.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_pause.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_pause.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_pause.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_fastforward.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_quantum_ic_close_white_24.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/res/drawable-hdpi-v4/quantum_ic_close_white_24.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/res/drawable-hdpi-v4/quantum_ic_close_white_24.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_fastforward.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_fastforward.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_fastforward.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_repeat_all.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_repeat_all.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_repeat_all.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4_exo_controls_previous.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-ldpi-v4/exo_controls_previous.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-ldpi-v4/exo_controls_previous.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_play.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_play.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_play.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_repeat_one.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_repeat_one.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_repeat_one.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_exo_controls_repeat_one.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-hdpi-v4/exo_controls_repeat_one.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-hdpi-v4/exo_controls_repeat_one.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_next.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_next.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_next.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_edit_mode_logo.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_edit_mode_logo.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_edit_mode_logo.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/layout_exo_simple_player_view.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/layout/exo_simple_player_view.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/layout/exo_simple_player_view.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_play.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_play.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_play.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21_exo_controls_previous.xml.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-anydpi-v21/exo_controls_previous.xml"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-anydpi-v21/exo_controls_previous.xml"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_exo_controls_previous.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xhdpi-v4/exo_controls_previous.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xhdpi-v4/exo_controls_previous.png"
     },
     {
         "merged": "/home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_exo_controls_repeat_off.png.flat",
-        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/res/drawable-xxhdpi-v4/exo_controls_repeat_off.png"
+        "source": "/home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/res/drawable-xxhdpi-v4/exo_controls_repeat_off.png"
     }
 ]

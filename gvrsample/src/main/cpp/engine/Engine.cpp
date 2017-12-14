@@ -22,6 +22,9 @@
  */
 void Engine::drawEye(const gvr::Rectf &sourceUv, const gvr::Mat4f &eyeMat) {
 //    triangle -> draw();
+    square->sourceUV = sourceUv;
+    square->eyeMat = eyeMat;
+    square->fov = scratchVP.GetSourceFov();
     square -> draw();
 }
 
@@ -79,6 +82,15 @@ void Engine::initializeGL() {
     swapChain.reset(new gvr::SwapChain(gvrApi->CreateSwapChain(specs)));
     // 创建视口（View port）列表
     vpList.reset(new gvr::BufferViewportList(gvrApi->CreateEmptyBufferViewportList()));
+
+    const auto isMultiView = gvrApi -> IsFeatureSupported(GVR_FEATURE_MULTIVIEW);
+    std::string supported = "UNKNOWN";
+    if (isMultiView) {
+        supported = "YES";
+    } else {
+        supported = "NO";
+    }
+    Log::i(__func__, "Multi view supported: %s", supported.data());
 }
 
 void Engine::initObjects() {

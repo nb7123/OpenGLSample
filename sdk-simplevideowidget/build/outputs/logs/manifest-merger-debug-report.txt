@@ -4,11 +4,11 @@ ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:2:1-29:12
-MERGED from [com.google.vr:sdk-videowidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-videowidget-1.101.0.aar/a6ff306e424dbe49265abedbdb751248/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/b420e979bf7dd21d34194696eb838bfe/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/875bc7488b55467995932ad96e9948c5/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.vr:sdk-commonwidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-commonwidget-1.101.0.aar/afe8037e9ea6eb326b6b18976cd93fdb/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.vr:sdk-videowidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-videowidget-1.101.0.aar/0f6210cd0cc735e1d588faacccf0395c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/77ba19a49d504d0b565a1cf19526746f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/40bfffb179fe16edaaa4130c2e4313ca/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.vr:sdk-commonwidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-commonwidget-1.101.0.aar/1c73df4cc9256f7d4902d296c5062129/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/AndroidManifest.xml:2:1-9:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:2:1-29:12
@@ -30,20 +30,20 @@ uses-sdk
 ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:7:5-74
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:7:5-74
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:7:5-74
-MERGED from [com.google.vr:sdk-videowidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-videowidget-1.101.0.aar/a6ff306e424dbe49265abedbdb751248/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.vr:sdk-videowidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-videowidget-1.101.0.aar/a6ff306e424dbe49265abedbdb751248/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/b420e979bf7dd21d34194696eb838bfe/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/b420e979bf7dd21d34194696eb838bfe/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/875bc7488b55467995932ad96e9948c5/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/875bc7488b55467995932ad96e9948c5/AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.vr:sdk-commonwidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-commonwidget-1.101.0.aar/afe8037e9ea6eb326b6b18976cd93fdb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.vr:sdk-commonwidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-commonwidget-1.101.0.aar/afe8037e9ea6eb326b6b18976cd93fdb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.vr:sdk-videowidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-videowidget-1.101.0.aar/0f6210cd0cc735e1d588faacccf0395c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.vr:sdk-videowidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-videowidget-1.101.0.aar/0f6210cd0cc735e1d588faacccf0395c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/77ba19a49d504d0b565a1cf19526746f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/77ba19a49d504d0b565a1cf19526746f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/40bfffb179fe16edaaa4130c2e4313ca/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/40bfffb179fe16edaaa4130c2e4313ca/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.vr:sdk-commonwidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-commonwidget-1.101.0.aar/1c73df4cc9256f7d4902d296c5062129/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.vr:sdk-commonwidget:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-commonwidget-1.101.0.aar/1c73df4cc9256f7d4902d296c5062129/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:7:5-74
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:7:5-74
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/b420e979bf7dd21d34194696eb838bfe/AndroidManifest.xml:23:9-58
+		ADDED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/77ba19a49d504d0b565a1cf19526746f/AndroidManifest.xml:23:9-58
 	android:targetSdkVersion
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:7:42-71
 		INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml
@@ -60,10 +60,10 @@ ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:8:52-75
 application
 ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:11:5-24:19
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/b420e979bf7dd21d34194696eb838bfe/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/b420e979bf7dd21d34194696eb838bfe/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/875bc7488b55467995932ad96e9948c5/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/875bc7488b55467995932ad96e9948c5/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/77ba19a49d504d0b565a1cf19526746f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/77ba19a49d504d0b565a1cf19526746f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/40bfffb179fe16edaaa4130c2e4313ca/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/40bfffb179fe16edaaa4130c2e4313ca/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-simplevideowidget/src/main/AndroidManifest.xml:11:18-55
 	android:largeHeap

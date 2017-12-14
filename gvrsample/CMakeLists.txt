@@ -41,6 +41,7 @@ add_library( # Sets the name of the library.
              src/main/cpp/util/soil/image_helper.c
              src/main/cpp/util/soil/SOIL.c
              src/main/cpp/util/soil/stb_image_aug.c
+             src/main/cpp/util/GLHelper.cpp
              src/main/cpp/util/Log.h
              src/main/cpp/util/Math.cpp
              src/main/cpp/util/asset/AssetManager.cpp

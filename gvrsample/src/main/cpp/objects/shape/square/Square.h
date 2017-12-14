@@ -18,6 +18,8 @@ private:
 
     GLint locTex0;
     GLint locTex1;
+
+    void transformation();
 public:
     void init();
     void draw();

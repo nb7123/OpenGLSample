@@ -1,6 +1,5 @@
 #version 310 es
 
-mediump in vec3 vOutColor;
 mediump in vec2 vOutTexPos;
 
 mediump out vec4 color;

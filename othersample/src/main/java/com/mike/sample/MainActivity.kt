@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import com.crashlytics.android.Crashlytics
+import com.google.firebase.analytics.FirebaseAnalytics
 import com.mike.sample.algorithm.MD5
 import com.mike.sample.util.Common
 import com.mike.sample.util.Encrypt
@@ -17,17 +19,34 @@ class MainActivity : AppCompatActivity() {
         private val LOG_TAG = MainActivity::class.java.simpleName
     }
 
+    private var analytics: FirebaseAnalytics? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+        analytics = FirebaseAnalytics.getInstance(this)
 
-            encrypt()
+        fab.setOnClickListener { view ->
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                    .setAction("Action", null).show()
+
+//            testCrashReport()
+            testFBLog()
+//            encrypt()
         }
+    }
+
+    private fun testCrashReport() {
+        Crashlytics.getInstance().crash()
+    }
+
+    private fun testFBLog() {
+        val bundle = Bundle()
+        bundle.putString("KEY1", "Value1")
+        bundle.putString("KEY2", "Value2")
+        analytics?.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -9,6 +9,8 @@
 #include <GLES3/gl3.h>
 #include <string>
 #include <vector>
+#include <array>
+#include <vr/gvr/capi/include/gvr_types.h>
 
 class Object {
 private:
@@ -26,15 +28,22 @@ private:
 protected:
     GLuint program;
 
-    std::vector<GLfloat> translate;
-    std::vector<GLfloat> scale;
-    std::vector<GLfloat> rotation;
+    std::array<GLfloat, 16> translate;
+    std::array<GLfloat, 16> scale;
+    std::array<GLfloat, 16> rotation;
+    std::array<GLfloat, 16> projection;
 
-    GLint locTrans;
-    GLint locScale;
-    GLint locRotat;
+    GLint locTranslateView;
+    GLint locScaleView;
+    GLint locRotationView;
+    GLint locProjectionView;
+    GLint locEyeView;
 
 public:
+    gvr::Rectf sourceUV;
+    gvr::Mat4f eyeMat;
+    gvr::Rectf fov;
+
     Object();
     /**
      * 初始化

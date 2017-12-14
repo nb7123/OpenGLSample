@@ -79,12 +79,15 @@ void Object::createProgram() {
 
     // 查找基本的uniform 位置
     if (program > 0) {
-        locTrans = glGetUniformLocation(program, "translate");
-        locScale = glGetUniformLocation(program, "scale");
-        locRotat = glGetUniformLocation(program, "rotation");
+        locTranslateView = glGetUniformLocation(program, "translateView");
+        locScaleView = glGetUniformLocation(program, "scaleView");
+        locRotationView = glGetUniformLocation(program, "rotationView");
+        locProjectionView = glGetUniformLocation(program, "projView");
+        locEyeView = glGetUniformLocation(program, "eyeView");
     }
 
-    Log::i(__func__, "Translate loc[%d], Scale loc[%d], Rotation loc[%d]", locTrans, locScale, locRotat);
+    Log::i(__func__, "Translate loc[%d], Scale loc[%d], Rotation loc[%d]",
+           locTranslateView, locScaleView, locRotationView);
 }
 
 std::string Object::getShaderInfoLog(GLuint shader) {
@@ -119,25 +122,17 @@ void Object::use() {
 }
 
 Object::Object() {
-    translate = {
+    std::array<GLfloat, 16> temp = {
             1.0, 0.0, 0.0, 0.0,
-            0.0, 1.0, 0.0, 0,0,
+            0.0, 1.0, 0.0, 0.0,
             0.0, 0.0, 1.0, 0.0,
-            0.0, 0.0, 0.0, 1,0,
+            0.0, 0.0, 0.0, 1.0,
     };
-
-    scale = {
-            1.0, 0.0, 0.0, 0.0,
-            0.0, 1.0, 0.0, 0,0,
-            0.0, 0.0, 1.0, 0.0,
-            0.0, 0.0, 0.0, 1,0,
-    };
-    rotation  = {
-            1.0, 0.0, 0.0, 0.0,
-            0.0, 1.0, 0.0, 0,0,
-            0.0, 0.0, 1.0, 0.0,
-            0.0, 0.0, 0.0, 1,0,
-    };
+    for (int i = 0; i < translate.size(); ++i) {
+        translate[i] = temp[i];
+        scale[i] = temp[i];
+        rotation[i] = temp[i];
+    }
 }
 
 Object::~Object() {

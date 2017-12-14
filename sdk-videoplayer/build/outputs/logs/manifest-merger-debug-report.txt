@@ -4,18 +4,18 @@ ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/Androi
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12
-MERGED from [com.google.android.exoplayer:exoplayer:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.1.aar/0db85212a362e159b1f788a0d2c8f580/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.exoplayer:extension-gvr:r2.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/extension-gvr-r2.4.0.aar/c962ded81ad85acbd2ef1369c65280ad/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.vr:sdk-audio:1.30.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-audio-1.30.0.aar/3d359281e45b8255b0b4017cbb86a8c3/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:2:1-27:12
-MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.1.aar/48b35f1ca25d94efed22a5fcfdb4c656/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.1.aar/9587d7c7a62fab4a21273d08d195dba3/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.1.aar/6bf99b6071744f2f2e30ab8ac6f2adc1/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.1.aar/fe51ea9d3b8ab6c53e24a66183d7f2c7/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.1.aar/1eb296accf25e1e11391346e1fa23cdc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:extension-gvr:r2.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/extension-gvr-r2.4.0.aar/03444cc3edf7c6f3d21fb012c7818c96/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.vr:sdk-audio:1.30.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-audio-1.30.0.aar/aeed08e8d0f7cb2f9f0f0973bcfb4070/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.1.aar/8d5c0bad8b0d4f63c13d564f464ba8b5/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.1.aar/20946276b7e62cd7517104675555506b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.1.aar/9778ba4d849694b55cb2e3b32ca3fa67/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.1.aar/05bb31ea54216047c7af4bb0536c27cd/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:17:1-31:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12
@@ -37,34 +37,34 @@ uses-sdk
 ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:9:5-74
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:9:5-74
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:9:5-74
-MERGED from [com.google.android.exoplayer:exoplayer:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.1.aar/0db85212a362e159b1f788a0d2c8f580/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.1.aar/0db85212a362e159b1f788a0d2c8f580/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:extension-gvr:r2.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/extension-gvr-r2.4.0.aar/c962ded81ad85acbd2ef1369c65280ad/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:extension-gvr:r2.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/extension-gvr-r2.4.0.aar/c962ded81ad85acbd2ef1369c65280ad/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.vr:sdk-audio:1.30.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-audio-1.30.0.aar/3d359281e45b8255b0b4017cbb86a8c3/AndroidManifest.xml:3:5-73
-MERGED from [com.google.vr:sdk-audio:1.30.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-audio-1.30.0.aar/3d359281e45b8255b0b4017cbb86a8c3/AndroidManifest.xml:3:5-73
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/1ef830cae70ecc03492cc1335fb30d04/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.1.aar/48b35f1ca25d94efed22a5fcfdb4c656/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.1.aar/48b35f1ca25d94efed22a5fcfdb4c656/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.1.aar/9587d7c7a62fab4a21273d08d195dba3/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.1.aar/9587d7c7a62fab4a21273d08d195dba3/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.1.aar/6bf99b6071744f2f2e30ab8ac6f2adc1/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.1.aar/6bf99b6071744f2f2e30ab8ac6f2adc1/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/bdfea57dd704a51852d1ed555fa59be2/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.1.aar/fe51ea9d3b8ab6c53e24a66183d7f2c7/AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.1.aar/fe51ea9d3b8ab6c53e24a66183d7f2c7/AndroidManifest.xml:21:5-23:41
-MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.1.aar/1eb296accf25e1e11391346e1fa23cdc/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.5.1.aar/1eb296accf25e1e11391346e1fa23cdc/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:extension-gvr:r2.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/extension-gvr-r2.4.0.aar/03444cc3edf7c6f3d21fb012c7818c96/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:extension-gvr:r2.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/extension-gvr-r2.4.0.aar/03444cc3edf7c6f3d21fb012c7818c96/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.vr:sdk-audio:1.30.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-audio-1.30.0.aar/aeed08e8d0f7cb2f9f0f0973bcfb4070/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-audio:1.30.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-audio-1.30.0.aar/aeed08e8d0f7cb2f9f0f0973bcfb4070/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.vr:sdk-common:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-common-1.101.0.aar/429f706aa41c6eca299c2159d5accbf5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.1.aar/8d5c0bad8b0d4f63c13d564f464ba8b5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.5.1.aar/8d5c0bad8b0d4f63c13d564f464ba8b5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.1.aar/20946276b7e62cd7517104675555506b/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.5.1.aar/20946276b7e62cd7517104675555506b/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.1.aar/9778ba4d849694b55cb2e3b32ca3fa67/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.5.1.aar/9778ba4d849694b55cb2e3b32ca3fa67/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.1.aar/8c47421a665cfeed35e8704132447690/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.1.aar/05bb31ea54216047c7af4bb0536c27cd/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.5.1] /home/michae/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.5.1.aar/05bb31ea54216047c7af4bb0536c27cd/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:21:5-23:58
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:9:5-74
 INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:9:5-74
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:23:9-58
+		ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:23:9-58
 	android:targetSdkVersion
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:9:42-71
 		INJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml
@@ -97,26 +97,26 @@ ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/Androi
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:17:19-67
 uses-feature#android.software.vr.mode
 ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:20:5-84
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:19:5-21:36
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:19:5-21:36
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:19:5-21:36
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:19:5-21:36
 	android:required
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:20:59-82
 	android:name
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:20:19-58
 uses-feature#android.hardware.vr.high_performance
 ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:22:5-96
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:23:5-25:36
-MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:23:5-25:36
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:23:5-25:36
+MERGED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:23:5-25:36
 	android:required
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:22:71-94
 	android:name
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:22:19-70
 application
 ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:24:5-47:19
-MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:26:9-43
 	android:allowBackup
@@ -164,26 +164,26 @@ ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/Androi
 	android:name
 		ADDED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:44:27-77
 uses-feature#0x00020000
-ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:10:5-12:35
+ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:10:5-12:35
 REJECTED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:10:5-12:35
 	android:glEsVersion
-		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:11:9-41
+		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:11:9-41
 	android:required
-		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:12:9-32
+		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:12:9-32
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:15:5-80
+ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:15:5-80
 IMPLIED from /home/michae/Code/Sample/OpenGLSample/sdk-videoplayer/src/main/AndroidManifest.xml:2:1-49:12 reason: com.google.vr.sdk.base requested WRITE_EXTERNAL_STORAGE
 	android:name
-		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:15:22-77
+		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:15:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:16:5-81
+ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/4f6d4d149f6341efc61a1698775a59a3/AndroidManifest.xml:16:22-78
+		ADDED from [com.google.vr:sdk-base:1.101.0] /home/michae/.gradle/caches/transforms-1/files-1.1/sdk-base-1.101.0.aar/53d953ce9c502b2847d56613897755c1/AndroidManifest.xml:16:22-78
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/1e3152770218d64333b1ddb1739688ab/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/174533586dcb9dcfbdbb0228fb06d165/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/c6a698c02741aab175cac75df3cedd83/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:support-core-utils:25.4.0] /home/michae/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/ea3e080bd3e8d56867a3a3c9d18b46b3/AndroidManifest.xml:27:13-51
