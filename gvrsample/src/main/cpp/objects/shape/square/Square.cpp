@@ -26,7 +26,8 @@ void Square::transformation() {
 //    scale[0] = 0.5;
 //    scale[5] = 0.5;
 
-    translate[2*4+3] = 1.0;
+//    translate[3] = 2.0;
+    translate[2*4+3] = 3.0;
 
 //    clock_t now = clock();
 //    now = now / 2500 % 360;
@@ -58,6 +59,13 @@ void Square::draw() {
 
     // projection matrix
     projection = GLHelper::perspectiveMatFromFOV(fov, 0.1f, 10.0f);
+    std::string str;
+    char
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4; ++j) {
+
+        }
+    }
     glUniformMatrix4fv(locProjectionView, 1, GL_TRUE, projection.data());
 
     // bind texture

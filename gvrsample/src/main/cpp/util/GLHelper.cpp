@@ -29,8 +29,8 @@ GLHelper::perspectiveMatFromFOV(gvr::Rectf fov, const float z_near, const float 
             result[i*4+j] = 0.0f;
         }
     }
-    result[0] = X;
-    result[2] = A;
+    result[0*4+0] = X;
+    result[0*4+2] = A;
     result[1*4+1] = Y;
     result[1*4+2] = B;
     result[2*4+2] = C;

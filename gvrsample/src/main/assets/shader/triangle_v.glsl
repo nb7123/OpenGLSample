@@ -20,6 +20,6 @@ void main() {
     // 局部坐标->世界坐标
     mat4 modelView = translateView * rotationView * scaleView;
 
-    gl_Position = eyeView * modelView * vec4(position, 1.0f);
+    gl_Position = projView * vec4(position, 1.0f);
     vOutTexPos = vec2(texPos.x, 1.0f - texPos.y);
 }
