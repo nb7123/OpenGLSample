@@ -59,13 +59,20 @@ void Square::draw() {
 
     // projection matrix
     projection = GLHelper::perspectiveMatFromFOV(fov, 0.1f, 10.0f);
-    std::string str;
-    char
+    std::string proMatStr, eyeMatStr;
+    char tmp[128];
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
-
+            sprintf(tmp, "%.2f ", projection[i*4+j]);
+            proMatStr.append(tmp);
+            sprintf(tmp, "%.2f ", eyeMat.m[i][j]);
+            eyeMatStr.append(tmp);
         }
+        proMatStr.append("\n");
+        eyeMatStr.append("\n");
     }
+    Log::i(__func__, "Projection matrix\n%s", proMatStr.data());
+    Log::i(__func__, "Eye matrix\n%s", eyeMatStr.data());
     glUniformMatrix4fv(locProjectionView, 1, GL_TRUE, projection.data());
 
     // bind texture
